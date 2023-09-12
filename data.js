@@ -12,6 +12,6 @@ const servicesData = [
     {
         title: "Fullstack Development",
         category: "fullstack",
-        description: ['Just as impressiv e is a beautiful layout is a system that carries out most of its acivities more auntomatic than manual so the knowledge and use of the backend to complement the frontend in a full stack project, appeals to me.','Its quite fulfilling and is very rewarding', 'It is my top specialization']
+        description: ['Just as impressive is a beautiful layout is a system that carries out most of its acivities more auntomatic than manual so the knowledge and use of the backend to complement the frontend in a full stack project, appeals to me.','Its quite fulfilling and is very rewarding', 'It is my top specialization']
     },
 ]

@@ -6,13 +6,13 @@ const getService = (category) => {
     const details = servicesData.find(item => item.category === category);
     serviceDetails.innerHTML = `
     <h3>${details.title}</h3>
-    ${details.description.map(paragraph => "<p>" + paragraph + "</P>")}
+    ${details.description.map(paragraph => "<p>" + paragraph + "</p>")}
     `
 }
 
 servicesButtons.forEach(item => {
-    item.addEventListener('click', () =>{
+    item.addEventListener('click', () => {
         const serviceClass = item.classList[1];
-        
+        getService(serviceClass)
     })
 })
